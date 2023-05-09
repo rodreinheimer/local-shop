@@ -1,0 +1,903 @@
+{
+  "metadata": {
+    "tags": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "4imncg5qweum"
+      }
+    },
+    "id": "4uok5wRvQRmP3v16VxqLa5",
+    "type": "Entry",
+    "createdAt": "2023-05-07T15:40:55.842Z",
+    "updatedAt": "2023-05-07T15:40:55.842Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "site"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "title": "Welcome to Rod's Mobile Shop",
+    "body": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "At our mobile shop, we aim to provide a unique and convenient customer experience that combines two essential services - mobile phone purchases and haircuts. Our mission is to create a comfortable and relaxing environment where our customers can get a fresh haircut while waiting for their phone appointment, eliminating the need for separate trips to the barber and the mobile shop.\nWe are committed to offering a wide selection of the latest mobile phone models and accessories at competitive prices, while also providing personalized service and expert advice to help our customers make informed decisions about their purchases.\nWe believe in putting our customers first and ensuring that they leave our shop feeling satisfied and happy with their purchases. Our goal is to build lasting relationships with our customers and become their go-to destination for all their mobile phone needs.\nOverall, our mission is to revolutionize the mobile shop industry by offering a unique and innovative approach to mobile phone purchases that makes the process more convenient, enjoyable, and rewarding for our customers.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "banner": {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "4imncg5qweum"
+          }
+        },
+        "id": "3ox0jm2GVIFBTtzRkOWrrh",
+        "type": "Asset",
+        "createdAt": "2023-05-07T15:39:08.847Z",
+        "updatedAt": "2023-05-07T15:39:08.847Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "site_banner",
+        "description": "site_banner",
+        "file": {
+          "url": "//images.ctfassets.net/4imncg5qweum/3ox0jm2GVIFBTtzRkOWrrh/65d1e128f2979e6307fb88437f06a485/site_banner.jpg",
+          "details": {
+            "size": 36023,
+            "image": {
+              "width": 620,
+              "height": 330
+            }
+          },
+          "fileName": "site_banner.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    "footer": "copyright 2023",
+    "products": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "4imncg5qweum"
+            }
+          },
+          "id": "66BuwcLcrKcBDqStXnnjAl",
+          "type": "Entry",
+          "createdAt": "2023-05-07T15:29:17.763Z",
+          "updatedAt": "2023-05-07T15:29:17.763Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "phone"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "imei": 111111111333,
+          "name": "Punkt MP02",
+          "description": {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "MP-02 New Generation Minimalist Phone with 4G LTE: a simple mobile phone for calling and texting, with excellent audio and a minimalist UI, plus Internet access available to secondary devices via Wi-Fi/Bluetooth/USB.    MP02 Cell phone compatible with Signal: Pigeon is an encryption feature on the Punkt. MP02 that enables people to use the Signal end-to-end encrypted messaging service, free of charge. Use Pigeon on the MP02 to connect with contacts using the Signal app on a smartphone, tablet, laptop or desktop computer.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Punkt. Phone with Digital Security: the operating system is hardened against attack.    Rugged Phone: made with top-grade components, 2-inch Gorilla Glass screen, glass-fibre reinforced body; splash-proof IP52 and a real keypad. The MP02 4G mobile phone is a tough piece of kit.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Stylish Brick Phone: designed by Jasper Morrison the MP02 phone is a pleasure to look at and hold, it also features bespoke ringtones created by Norwegian sound artist Kjetil Røst Nilsen.    Feature Phone with Useful Tools: Bluetooth, contact list, alarm clock, notes with reminders, calculator, and basic calendar.\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "image": {
+            "metadata": {
+              "tags": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "4imncg5qweum"
+                }
+              },
+              "id": "2WrMg8mOXUEbolxrbndf2x",
+              "type": "Asset",
+              "createdAt": "2023-05-07T15:28:21.143Z",
+              "updatedAt": "2023-05-07T15:28:21.143Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "revision": 1,
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "punkt MP02",
+              "description": "punkt MP02",
+              "file": {
+                "url": "//images.ctfassets.net/4imncg5qweum/2WrMg8mOXUEbolxrbndf2x/7ad6668183f71c2c55b7ce222d8fd087/punkt.jpg",
+                "details": {
+                  "size": 44636,
+                  "image": {
+                    "width": 389,
+                    "height": 881
+                  }
+                },
+                "fileName": "punkt.jpg",
+                "contentType": "image/jpeg"
+              }
+            }
+          },
+          "tags": [
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "4m0KPfswbVvq2pSV41Bc6Y",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:03:40.362Z",
+                "updatedAt": "2023-05-07T15:03:40.362Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "16GB"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "5pmHgAD7L7wy8PliocrbHF",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:04:52.613Z",
+                "updatedAt": "2023-05-07T15:04:52.613Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Black"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "4imncg5qweum"
+            }
+          },
+          "id": "6R06fGlh0bGgQbwvrfqNBb",
+          "type": "Entry",
+          "createdAt": "2023-05-07T15:24:11.057Z",
+          "updatedAt": "2023-05-07T15:24:11.057Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "phone"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "imei": 111111111122,
+          "name": "Samsung Galaxy S23+",
+          "description": {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Samsung Galaxy is a line of smartphones developed and manufactured by Samsung Electronics. The Galaxy series runs on the Android operating system, and the devices are known for their sleek design, powerful performance, and innovative features.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "\nThe Galaxy phones typically feature large, high-resolution displays, advanced camera systems with multiple lenses and image stabilization, and powerful processors for optimal performance. They also offer a range of connectivity options, including Bluetooth, Wi-Fi, and cellular networks, as well as NFC for mobile payments.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "\nRecent Samsung Galaxy models have also introduced new features such as wireless charging, water resistance, and biometric authentication methods, including facial recognition and fingerprint scanning. The latest models also support 5G connectivity, providing faster download and upload speeds and enabling a new range of mobile experiences.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "image": {
+            "metadata": {
+              "tags": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "4imncg5qweum"
+                }
+              },
+              "id": "4uTqmKiiwZcFcs2VdUfCv6",
+              "type": "Asset",
+              "createdAt": "2023-05-07T15:23:06.648Z",
+              "updatedAt": "2023-05-07T15:23:06.648Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "revision": 1,
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "Galaxy S23+ ",
+              "description": "Samsung Galaxy S23",
+              "file": {
+                "url": "//images.ctfassets.net/4imncg5qweum/4uTqmKiiwZcFcs2VdUfCv6/fcfbe79506ff585ce899d6a55e2b621a/Galaxy-S23.jpg",
+                "details": {
+                  "size": 248230,
+                  "image": {
+                    "width": 1200,
+                    "height": 1200
+                  }
+                },
+                "fileName": "Galaxy-S23.jpg",
+                "contentType": "image/jpeg"
+              }
+            }
+          },
+          "tags": [
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "1HsQbfd02Je0vWhrOqpR93",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:05:51.801Z",
+                "updatedAt": "2023-05-07T15:05:51.801Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "8MP"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "phfZVlxWGTG3UqBXBQEUo",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:05:38.943Z",
+                "updatedAt": "2023-05-07T15:05:38.943Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "16MP"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "PKTao3VoHcbuNlu1vzp5K",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:04:39.451Z",
+                "updatedAt": "2023-05-07T15:04:39.451Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Silver"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "4m0KPfswbVvq2pSV41Bc6Y",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:03:40.362Z",
+                "updatedAt": "2023-05-07T15:03:40.362Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "16GB"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7wylys1r0xs0Bdo3o8j0ZR"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "6YV7LGbMrAy9vmQwun5X5L",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:05:22.410Z",
+                "updatedAt": "2023-05-07T15:05:22.410Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Rose Red"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "4imncg5qweum"
+            }
+          },
+          "id": "68xU5OVoyBMSp3vP6FyNqY",
+          "type": "Entry",
+          "createdAt": "2023-05-07T15:16:51.703Z",
+          "updatedAt": "2023-05-07T15:16:51.703Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "phone"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "imei": 111111111111,
+          "name": "Apple iPhone 14 ",
+          "description": {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "The Apple iPhone is a line of smartphones developed and manufactured by Apple Inc. Since the launch of the first iPhone in 2007, the device has evolved significantly and become a popular device worldwide.\n\nThe iPhone typically runs on Apple's iOS operating system and features a touchscreen display, a front-facing camera for selfies and video calls, a rear-facing camera for photos and videos, and access to the App Store, where users can download various applications for the device. The iPhone also includes a variety of sensors, such as a fingerprint scanner and facial recognition technology for device security and authentication.\n\nRecent iPhone models have also introduced new features such as wireless charging, water resistance, and advanced camera systems with multiple lenses and image stabilization. The latest iPhone models are also equipped with powerful processors and high-quality displays for optimal performance and user experience.\n\nOverall, the iPhone is known for its sleek design, intuitive user interface, and advanced features, making it a popular choice for many consumers around the world.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "image": {
+            "metadata": {
+              "tags": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "4imncg5qweum"
+                }
+              },
+              "id": "1MG15hVF9zgqlww6CVQ71N",
+              "type": "Asset",
+              "createdAt": "2023-05-07T15:14:43.302Z",
+              "updatedAt": "2023-05-07T15:20:52.009Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "revision": 2,
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "iphone-14",
+              "description": "iphone-14",
+              "file": {
+                "url": "//images.ctfassets.net/4imncg5qweum/1MG15hVF9zgqlww6CVQ71N/b2eb8a75c92e25b585e1bdf99c03787c/iphone-14.jpg",
+                "details": {
+                  "size": 60047,
+                  "image": {
+                    "width": 2560,
+                    "height": 1440
+                  }
+                },
+                "fileName": "iphone-14.jpg",
+                "contentType": "image/jpeg"
+              }
+            }
+          },
+          "tags": [
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "1HsQbfd02Je0vWhrOqpR93",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:05:51.801Z",
+                "updatedAt": "2023-05-07T15:05:51.801Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "8MP"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "phfZVlxWGTG3UqBXBQEUo",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:05:38.943Z",
+                "updatedAt": "2023-05-07T15:05:38.943Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "16MP"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "PKTao3VoHcbuNlu1vzp5K",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:04:39.451Z",
+                "updatedAt": "2023-05-07T15:04:39.451Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Silver"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "2fo8dG2j6Ek7vlSWj83GiU",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:15:43.270Z",
+                "updatedAt": "2023-05-07T15:15:43.270Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Gold Yellow"
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4imncg5qweum"
+                  }
+                },
+                "id": "4m0KPfswbVvq2pSV41Bc6Y",
+                "type": "Entry",
+                "createdAt": "2023-05-07T15:03:40.362Z",
+                "updatedAt": "2023-05-07T15:03:40.362Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "tag"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "16GB"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,95 +1,85 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+      import Image from 'next/image'
+      import styles from './page.module.css'
+      import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      //Import JSON file here ---> It is going to have all the data for the application
+      import data from "../public/data.json"
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      export default function Home() {
+        const {
+          fields: {
+            body, 
+            banner: {
+              fields: 
+              {
+                title: imgTitle,
+                file: { url: imgUrl }, 
+              },     
+            },
+            title, 
+            footer,
+            products
+        },
+        } = data;
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+        console.log('home  page data: ', data.fields.banner.fields.file.details.image.height);
+        return (
+          <main className={styles.main}>
+            <div className={styles.bannerImage}>
+              <Image 
+                src={`https:${imgUrl}`}
+                alt={imgTitle}
+                fill
+                />
+            </div>
+              <div className={styles.header}>
+                <h1>{title}</h1>
+                {documentToReactComponents(body)}
+              </div>
+              <div className={styles.phones}>
+                {products.map(({ sys: { id }, fields: { 
+                  description, 
+                  name, 
+                  imei, 
+                  image: {
+                  fields: 
+                  {
+                    title: imgTitle,
+                    file: { url: imgUrl }, 
+                  },     
+                }, tags } }) => {
+                  return (
+                    <div key={id} className={styles.phone}>
+                      <div className={styles.productImage}>
+                        <Image 
+                          src={`https:${imgUrl}`}
+                          alt={imgTitle}
+                          fill
+                        />
+                      </div>
+                      <div className={styles.imei}>
+                        <strong>IMEI:</strong> {imei}
+                      </div>
+                      <div className={styles.productName}>
+                        {name}
+                      </div>
+                      {documentToReactComponents(description)}
+                      <div className={styles.tags}>
+                        {tags.map(({ sys: { id }, fields }) =>( 
+                        <div key={id} className={styles.tag}>
+                          {fields?.name}
+                        </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                  }
+                )}
+              </div>
+              <footer className={styles.footer}>
+                <small>{footer}</small>
+              </footer>
+          </main>
+        )
+      } // -> <p>Hello world!</p>

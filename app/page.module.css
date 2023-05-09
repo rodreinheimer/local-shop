@@ -1,13 +1,89 @@
-.main {
+.header {
+  text-align: center;
+  margin: 30px 0
+}
+
+.header h1 {
+  margin-bottom: 15px;
+}
+.phones {
+  gap: 30px;
+  display: grid;
+}
+
+@media screen and (min-width: 50rem) {
+  .phones {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.phone {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.phone p:not(:first-of-type) {
+  display: none;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tag {
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.imei{
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.productName {
+  font-size: 3rem;
+}
+
+.productImage {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.productImage img {
+  object-fit: contain;
+}
+
+.bannerImage {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.bannerImage img {
+  object-fit: contain;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-}
+} */
 
-.description {
+/* .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -71,8 +147,8 @@
   line-height: 1.5;
   max-width: 30ch;
 }
-
-.center {
+ */
+/* .center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,9 +182,9 @@
 
 .logo {
   position: relative;
-}
+} */
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -123,10 +199,10 @@
   .card:hover span {
     transform: none;
   }
-}
+} */
 
 /* Mobile */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -201,9 +277,9 @@
     z-index: 1;
   }
 }
-
+ */
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/* @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -227,3 +303,4 @@
     transform: rotate(0deg);
   }
 }
+ */
