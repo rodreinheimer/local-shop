@@ -1,7 +1,7 @@
       import Image from 'next/image'
       import styles from './page.module.css'
       import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-
+      import { Document } from "@contentful/rich-text-types";
 
       //Import JSON file here ---> It is going to have all the data for the application
       import data from "../public/data.json"
@@ -35,7 +35,7 @@
             </div>
               <div className={styles.header}>
                 <h1>{title}</h1>
-                {documentToReactComponents(body)}
+                {documentToReactComponents(body as Document)}
               </div>
               <div className={styles.phones}>
                 {products.map(({ sys: { id }, fields: { 
@@ -64,7 +64,7 @@
                       <div className={styles.productName}>
                         {name}
                       </div>
-                      {documentToReactComponents(description)}
+                      {documentToReactComponents(description as Document)}
                       <div className={styles.tags}>
                         {tags.map(({ sys: { id }, fields }) =>( 
                         <div key={id} className={styles.tag}>
